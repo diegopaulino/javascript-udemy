@@ -1,0 +1,12 @@
+const times = new Set()
+times.add('Corinthians')
+times.add('Vasco')
+times.add('Palmeiras')
+times.add('São Paulo')
+times.add('Corinthians')
+
+console.log(times)
+console.log(times.size)
+console.log(times.has('vasco'))
+console.log(times.has('Vasco'))
+console.log(times.delete('Palmeiras'))
