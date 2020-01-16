@@ -17,3 +17,7 @@ console.log(chavesVariadas.has(123))
 chavesVariadas.delete(123)
 console.log(chavesVariadas.has(123))
 console.log(chavesVariadas.size)
+
+chavesVariadas.set(123, 'a')
+chavesVariadas.set(123, 'b')
+console.log(chavesVariadas)
