@@ -7,12 +7,25 @@
         .fora {
             position: relative;
             background-color: orange;
+            height: 400px;
+            width: 400px;
+            padding: 50px;
+        }
+
+        .dentro {
+            background-color: mediumvioletred;
+            height: 100px;
+            width: 100%;
+            position: static;
+            position: relative;
+            position: absolute; /* Conteúdo + Padding */
+            position: fixed;
         }
     </style>
 </head>
 <body>
     <div class="fora">
-        <div class="dentro"></div>
+        <div class="dentro">&nbsp;</div>
     </div>
 </body>
 </html>
